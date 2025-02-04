@@ -9,6 +9,8 @@
 # print(set_1)
 # print(set_1)
 
-list_1 = [("a", 50), ("b", 60), ("c", 30)]
-list_2 = sorted(list_1, key= lambda x: x[0])
+# list_1 = [("a", 50), ("b", 60), ("c", 30)]
+list_1 = [5, 6, 8, 4, 9, 3]
+# list_2 = sorted(list_1, key= lambda x: x[0])
+list_2 = set(list_1)
 print(list_2)
