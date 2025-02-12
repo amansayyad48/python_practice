@@ -1,7 +1,7 @@
 import os
 
 dir = "C:\ICB_Files\Goal_2024"
-word = "MessageA"
+word = "MessageBg"
 
 for file in os.listdir(dir):
     cur_path = os.path.join(dir, file)
